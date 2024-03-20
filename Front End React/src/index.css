@@ -1,0 +1,166 @@
+body {
+  margin:0;
+  padding:0;
+  height: 100vh;
+  background-color: #dbdbdbab;
+}
+
+.Center{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.Blur{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/Images_Folder/img2.jpg');
+  background-size: cover;
+  z-index: -1;
+  filter: blur(2px);
+  opacity: 0.90;
+}
+
+
+
+
+
+.UsrInpt{
+  position: fixed;
+  transform: translate(-50%, 50%);
+  height: 4.4%;
+  width: 375px;
+  top: 55%;
+  left: 50%;
+  border-radius: 7px;
+  border: 0px;
+  text-align: center;
+}
+
+.UsrLgn{
+  position: fixed;
+  transform: translate(-50%, 50%);
+  height: 4.4%;
+  width: 375px;
+  margin-top: 10px;
+  left: 50%;
+  top: 60%;
+  border-radius: 7px;
+  border: 0px;
+  text-align: center;
+}
+
+.EnterButton {
+  cursor: pointer;
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    margin-top: 30px;
+    width: 400px;
+    height: 5.2%;
+    border-radius: 10px;
+    background-color: rgb(13, 105, 180);
+    font-family: inherit;
+    color: #fff;
+    font-size: 100%;
+}
+
+
+
+
+.SCH{
+  position: fixed;
+  transform: translate(-50%, 50%);
+  height: 20%;
+  top: 20%;
+  left: 50%;
+  border-radius: 30px;
+  border: 0px;
+}
+
+
+
+
+.container_UPE_content{
+  position: fixed;
+  transform: translate(-50%, 50%);
+  top: 73%;
+  left: 10%;
+  width: 300px;
+  height: 100px;
+  border: 1px solid rgba(255, 4, 4, 0);}
+    .UPE_logo{
+      position: fixed;
+      transform: translate(-50%, 50%);
+      height: 40px;
+      top: 15%;
+      left: 54%;}
+    .UPE_text{
+      position: fixed;
+      transform: translate(-50%, 50%);
+      bottom: 0%;
+      left: 50%;
+      color:aliceblue;
+      text-align:center;
+      font-size: 13px;
+      margin-bottom: 7px;
+      margin-left: 5%;
+    }
+
+
+
+.container_Poli_content{
+  position: fixed;
+  transform: translate(-50%, 50%);
+  top: 73%;
+  left: 89%;
+  width: 300px;
+  height: 100px;
+  border: 1px solid rgba(255, 0, 0, 0);}
+      .Poli_logo{
+        position: fixed;
+        transform: translate(-50%, 50%);
+        height: 45px;
+        top: 5%;
+        right: 31%;}
+      .Poli_text{
+        position: fixed;
+        transform: translate(-50%, 50%);
+        bottom: 0%;
+        left: 45%;
+        color:aliceblue;
+        text-align:center;
+        font-size: 13px;
+        margin-bottom: 2%;
+        margin-right: 15%;
+      }
+    
+
+
+.container_Login_Icon {
+  position: fixed;
+  transform: translate(-50%, 50%);
+  top: 43%;
+  left: 50%;
+  width: 450px;
+  height: 19%;}
+.User_icon{
+  position: fixed;
+  transform: translate(-50%, 50%);
+  height: 30%;
+  top: 5%;
+  left: 98%;}
+.Login_icon{
+  position: relative;
+  transform: translate(-50%, 50%);
+  height: 27%;
+  top: 47%;
+  left: 98%;
+}
